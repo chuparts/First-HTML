@@ -1,0 +1,67 @@
+h1 {
+	color: #E0E01D;
+	opacity: 1;
+	text-align: center;
+	border-top: 3px solid #E0E01D;
+	border-bottom: 3px solid #E0E01D;
+	cursor: cell;
+	font-family: "Georgia";
+	padding: 5px 0px;
+}
+
+html {
+	background-color: #55117B;
+	border-bottom: 5px dotted #E0E01D;
+}
+
+span {
+	transition: all 0.5s;
+	font-family: papyrus;
+	font-size: 25px;
+	cursor: cell;
+}
+
+span:hover {
+	transform: scale(1.01);
+	color: red;
+}
+
+ul {
+	display: flex;
+	color: #E0E01D;
+	justify-content: space-between;
+	padding-inline-start: 0px;
+}
+
+li:hover {
+	transform: scale(1.08);
+}
+
+.first {
+	background-color: #E0E01D;
+	display: inline-block;
+	border: 10px solid #E0E01D;
+	padding: 20px;
+	font-family: Georgia;
+	border-radius: 10px;
+}
+
+.second {
+	background-color: #E0E01D;
+	display: inline-block;
+	font-family: Georgia;
+	border: 10px solid #E0E01D;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+p {
+	color: #E0E01D;
+	font-family: Georgia;
+	font-size: 20px;
+	/*padding-inline-start: 20px;*/
+	border-bottom: 2px solid #E0E01D;
+	width: 550px;
+	text-align: center;
+}
+

@@ -1,0 +1,44 @@
+html {
+	background-color: #55117B;
+	border-bottom: 5px dotted #E0E01D;
+}
+
+h1 {
+	border-top: 3px solid #E0E01D;
+	border-bottom: 3px solid #E0E01D;
+	color: #E0E01D;
+	text-align: center;
+	font-family: "Georgia";
+	padding: 5px 0px;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	width: 25%;
+}
+
+h2 {
+	color: #E0E01D;
+}
+
+.longtext {
+	color: #E0E01D;
+	font-size: 20px;
+}
+
+.link {
+	background-color: #E0E01D;
+	display: inline-block;
+	border: 10px solid #E0E01D;
+	padding: 20px;
+	font-family: Georgia;
+	border-radius: 10px;
+}
+
+.link:hover {
+	transform: scale(1.1);
+}
